@@ -7,9 +7,9 @@ interface LoginContract {
 
         fun hideProgress()
 
-        fun showLoginSuccess()
+        fun showLoginSuccess(statusMessage: String)
 
-        fun showLoginFailure()
+        fun showLoginFailure(statusMessage: String)
     }
 
     interface Presenter {
@@ -17,7 +17,7 @@ interface LoginContract {
 
         fun onDetach()
 
-        fun onLoginButtonClicked()
+        fun onLoginButtonClicked(login: String, password: String)
     }
-    
+
 }

@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">simple-mvp-demo</string>
-    <string name="login_status">Login status: %s</string>
+    <string name="login_status">Login status: no data</string>
 </resources>
